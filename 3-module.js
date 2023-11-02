@@ -1,0 +1,6 @@
+const name = require('./1-name')
+const sayHi = require('./util')
+const data = require('./6-alternative')
+sayHi(name.john)
+sayHi(name.peter)
+console.log(data)
